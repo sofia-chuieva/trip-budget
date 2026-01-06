@@ -1,2 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
+@layer base {
+  * {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+@theme {
+  --color-dark-purple: #37355e;
+  --color-light-blue: #1f517f;
+  --color-purple: #424242;
+  /* --color-red: #d63958;
+  --color-orange: #fe8835;
+  --breakpoint-3xl: 120rem;
+  --breakpoint-xs: 27rem; */
+}
